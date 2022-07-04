@@ -11,6 +11,10 @@
  - Check for linting errors : ```npm run lint```
  - Fix for linting : ```npm run lint:fix```
 
+### API doc
+
+http://localhost:3000/api-docs
+
 ### Docker Install
 
   - starts the containers in the background and leaves them running : ```docker-compose up -d```
