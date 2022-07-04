@@ -18,9 +18,10 @@
 
 Modify ```docker-compose.yml``` and ```Dockerfile``` file to your source code.
 
-### Future
+### ToDo
 
  - Create an automated structure to handle route registration and handle controllers error without try-catch in all controller functions.
  - Creating a collection containing the cards and then referencing the card objects to the deck
  - Creating a common error code structure for response
  - Need to replace mongo with in memory mongo for testing
+ - Swagger may not be functional fully
