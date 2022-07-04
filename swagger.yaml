@@ -3,23 +3,29 @@ tags:
   description: deck API
 
 paths:
-# [GET] Get deck
-  /deck:
+# [GET] deck/{deckId}
+  /deck/{deckId}:
     get:
       tags:
       - deck
       summary: Get deck
+      parameters:
+        - name: deckId
+          in: path
+          description: Deck Id
+          required: true
       responses:
         200:
           description: 'OK'
         500:
           description: 'Server Error'
 
-# [POST] Create deck
+# [POST] deck
+  /deck:
     post:
       tags:
       - deck
-      summary: Create a deck
+      summary: Create Deck
       parameters:
       - name: body
         in: body
